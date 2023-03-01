@@ -43,7 +43,7 @@ def main():
         
     if st.button('Predict'):
 
-            loaded_model = load_model('crop_modelNB.pkl')
+            loaded_model = load_model('crop_modelSVC.pkl')
             prediction = loaded_model.predict(single_pred)
             st.write('''
 		    ## Results 🔍 
